@@ -1,0 +1,27 @@
+div p {
+    letter-spacing: 3px;
+    text-transform: lowercase`;
+}
+
+
+.text {
+    text-transform: uppercase;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.fio span::first-letter{
+    text-transform: uppercase;
+}
+
+.last {
+    text-align-last: right;
+}

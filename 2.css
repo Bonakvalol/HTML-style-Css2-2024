@@ -1,0 +1,134 @@
+body {
+    margin:0;
+    padding: 0;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.first{
+    width: 200px;
+    white-space: nowrap;
+    border:2px solid black;
+}
+
+.second{
+    border:2px solid black;
+    width: 200px;
+    white-space: wrap;
+}
+
+.third{
+    border:2px solid black;
+    width: 200px;
+    white-space: pre-wrap;
+}
+
+.fourth{
+    border:2px solid black;
+    width: 200px;
+    white-space: pre-line;
+}
+
+.tab {
+    tab-size: 4;
+}
+
+.t {
+    height: 200px;
+    width:100px;
+    overflow: auto;
+    border:2px solid black;
+    transition: all 2s;
+}
+
+.t:hover {
+    width: 900px;
+    height: 300px;
+}
+
+.pic {
+    border:2px solid black;
+    width: 300px;
+    height: 300px;
+}
+
+.pic img {
+    width: 400px;
+    height: 400px;
+}
+
+.pic1 {
+    border:2px solid black;
+    width: 300px;
+    height: 300px;
+    overflow: auto;
+}
+
+.pic1 img {
+    width: 400px;
+    height: 400px;
+}
+
+.pictures {
+    display:flex;
+    gap:150px;
+    flex-direction: column;
+}
+
+.second {
+    overflow-x: hidden;
+}
+
+.r {
+    border: 2px solid black;
+    width: 150px;
+    height: 150px;
+    overflow-y: scroll;
+}
+
+.text {
+    
+}
+
+.p {
+    width: 200px;
+    border:2px solid black;
+    white-space: nowrap;
+    overflow-x: hidden;
+}
+.p:hover {
+    white-space: wrap;
+    overflow: auto;
+}
+
+.q {
+    overflow-wrap: break-word;
+    padding:10px;
+    border:2px solid black;
+    box-shadow: 10px 5px 5px 5px black;
+}
+
+.g {
+    word-break: break-all;
+    padding:10px;
+    border:2px solid black;
+    box-shadow: 10px 5px 5px 5px black;
+}
+
+.long-words {
+    display: flex;
+    flex-direction: column;
+    gap:50px;
+}
+
+.perenos {
+    text-align: justify;
+    width: 300px;
+    padding:10px;
+    border:2px solid black;
+    box-shadow: 10px 5px 5px 5px black;
+    hyphens: auto;
+}

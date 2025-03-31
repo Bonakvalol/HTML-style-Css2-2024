@@ -1,0 +1,24 @@
+main {
+    display: flex;
+    flex-direction: column;
+    gap:50px;
+}
+
+.first {
+    width: 80%;
+    column-count: auto;
+    column-width: 300px;
+}
+
+.second {
+    width: 1000px;
+    column-count: 4;
+}
+
+.moded {
+    column-gap: 30px;
+}
+
+.border {
+    column-rule: 1px dashed black;
+}
